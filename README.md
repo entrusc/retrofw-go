@@ -1,7 +1,7 @@
 # retrofw-go
-Go build environment including cross compilation toolchain to build SDL dependencies
+Go build environment for RetroFW `MIPSLE` devices which includes a proper set up cross compilation toolchain to build SDL dependencies
 
-* A simple environment based on the go docker image that also contains the tool chain from here: https://github.com/retrofw/buildroot/releases
+* A simple environment based on the Go docker image that also contains the tool chain from here: https://github.com/retrofw/buildroot/releases
 * Configured environment variables are `GOOS`, `GOARCH`, `GOMIPS`, `CGO_ENABLED`, `CC`, `CGO_CFLAGS` & `CGO_LDFLAGS` (to set the proper include path for SDL libs)
 
 ## how to use in Go
